@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Clone</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #111;
+            color: #fff;
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .navbar {
+            background-color: #111 !important;
+        }
+
+        .navbar-brand {
+            color: #e50914 !important;
+            font-size: 1cm;
+        }
+
+        .navbar-dark .navbar-toggler-icon {
+            background-color: #000000;
+        }
+
+        .carousel-item {
+            height: 80vh;
+        }
+
+        .carousel-caption {
+            text-align: center;
+        }
+
+        .carousel-caption h1 {
+            font-size: 3rem;
+        }
+
+        .carousel-caption p {
+            font-size: 1.2rem;
+        }
+
+        .featured-content {
+            padding: 80px 0;
+        }
+
+        .featured-content h2 {
+            font-size: 2.5rem;
+            margin-bottom: 30px;
+        }
+
+        .card {
+            background-color: transparent;
+            border: none;
+        }
+
+        .card img {
+            border-radius: 8px;
+        }
+
+        .card-title {
+            font-size: 1.2rem;
+            margin-top: 10px;
+        }
+
+        footer {
+            background-color: #111;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-dark">
+        <a class="navbar-brand" href="#">Netflix</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </nav>
+    <div id="carouselExample" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://th.bing.com/th/id/R.9daa251846041f311b91d930d6ffd628?rik=VVsNIq%2fGp5qGqQ&riu=http%3a%2f%2fcafmp.com%2fwp-content%2fuploads%2f2012%2f12%2fAvatar-Banner.jpg&ehk=kyRlfreulXK169%2b7F5MDqjmNznuaxsT%2bZlXBMeLCTT4%3d&risl=&pid=ImgRaw&r=0"
+                    class="d-block w-100" alt="...">
+                <div class="carousel-caption">
+                    <h1>Welcome to Netflix</h1>
+                    <p>Watch amazing movies and TV shows anytime, anywhere.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid featured-content">
+        <h2>Featured Content</h2>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="https://d1csarkz8obe9u.cloudfront.net/themedlandingpages/tlp_hero_movie-poster-template-bf66c91406dcc58797e8135a5d201178.jpg?ts%20=%201699441096"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Travel</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="https://i.pinimg.com/474x/c9/03/e0/c903e05d6a75c4a9d56024f9d2843899.jpg"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Karthikeya</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="https://cdn.123telugu.com/content/wp-content/uploads/2022/12/Pushpa.jpg"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Pushpa</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="https://www.adgully.com/img/400/201704/image002-2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Udta Punjab</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Netflix</p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
